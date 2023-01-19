@@ -1,0 +1,42 @@
+.upcomingFairs {
+  .card {
+    border: none;
+    border-radius: 8px;
+    background-position: center;
+    background-size: cover;
+    line-height: 0.6rem;
+    .card-body {
+      margin-top: 20%;
+    }
+    h5, p {color: white};
+    a {
+      span {
+        font-weight: bold;
+        color: $color-button-primary
+      }
+    }
+  }
+  .fairCards {
+    background-color: rgb(244, 244, 244);
+    border-radius: 3px;
+    padding-top: 10px;
+    line-height: 0.2rem;
+    cursor: pointer;
+    p {
+      font-size: $font-size-paragraph;
+    }
+    img {
+      width: 40px;
+    }
+    &:hover {
+      border: 2px solid $color-button-primary;
+    }
+  }
+  .detailCard {
+    background-image: linear-gradient(145deg,#fcff60, #fafafa );
+    p {
+      color: grey;
+      padding: 0;
+    }
+  }
+}

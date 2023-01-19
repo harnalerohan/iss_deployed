@@ -1,0 +1,37 @@
+.warning {
+  background-color: red;
+  padding-top: 5px;
+  h5, p {
+    color: white;
+  }
+  p {
+    font-size: 0.8rem;
+  }
+  .profile{
+    text-decoration: underline;
+    span {
+      font-weight: bold;
+    }
+  }
+}
+
+.jobFairs {
+  padding-top: 2rem;
+  background: linear-gradient(0.25turn, #fef2ce, #cdfaf3);
+  h3 {
+    font-size: $font-size-h3;
+    font-weight: 700;
+  }
+  p {
+    font-size: $font-size-paragraph;
+  }
+  .svgImage {
+    position: relative;
+  }
+  img {
+    width: 65%;
+    margin-left: 15%;
+    margin-top: 10%;
+    // padding-bottom: 1%;
+  }
+}
